@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945753108692",
+    "project_id": "ecommerce-app-agzhan",
+    "storage_bucket": "ecommerce-app-agzhan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945753108692:android:757c27091d307b832fcb41",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945753108692-musuq9721lnjobjhjfsisle5j4l6v503.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjWJAdfLRlm4sAbz1qaUUnWD77qQRnR_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945753108692-musuq9721lnjobjhjfsisle5j4l6v503.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
