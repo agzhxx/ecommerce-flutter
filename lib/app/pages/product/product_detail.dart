@@ -1,7 +1,10 @@
+import 'package:ecommerce/app/pages/providers.dart';
 import 'package:ecommerce/models/product_model.dart';
 import 'package:ecommerce/widgets/user_top_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../user/user_bag.dart';
 
 class ProductDetail extends ConsumerWidget {
   final Product product;
@@ -100,7 +103,11 @@ class ProductDetail extends ConsumerWidget {
               ),
               // Add to cart button
               GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  ref.read(bagProvider).addProduct(product);
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const UserBag()));
+                },
                 child: Container(
                   width: double.infinity,
                   height: 50,
