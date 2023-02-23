@@ -1,4 +1,3 @@
-import 'package:ecommerce/app/pages/providers.dart';
 import 'package:ecommerce/app/pages/sign_in_page.dart';
 import 'package:ecommerce/app/pages/user/user_home.dart';
 import 'package:firebase_core/firebase_core.dart';
