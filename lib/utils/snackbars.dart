@@ -17,7 +17,7 @@ openIconSnackBar(context, String text, Widget icon) {
     content: Row(
       children: [
         icon,
-        SizedBox(
+        const SizedBox(
           width: 5,
         ),
         Text(text)

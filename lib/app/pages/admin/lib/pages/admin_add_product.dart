@@ -91,7 +91,7 @@ class _AdminAddProductPageState extends ConsumerState<AdminAddProductPage> {
 
     if (storage == null || fileStorage == null || imageFile == null) {
       // make sure none of them are null
-      print("Error: storage, fileStorage or imageFile is null");
+      // print("Error: storage, fileStorage or imageFile is null");
       return;
     }
     // Upload to Filestorage
